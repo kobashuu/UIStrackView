@@ -9,7 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+   
+    @IBAction func handle(_ sender: AnyObject) {
+        label.text = "Swift"
+    }
+    @IBOutlet weak var label: UILabel!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
